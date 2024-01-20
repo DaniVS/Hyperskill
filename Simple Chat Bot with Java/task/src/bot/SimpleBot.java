@@ -6,7 +6,7 @@ public class SimpleBot {
     final static Scanner scanner = new Scanner(System.in); // Do not change this line
 
     public static void main(String[] args) {
-        greet("Aid", "2018"); // change it as you need
+        greet("Aid", "2023"); // change it as you need
         remindName();
         guessAge();
         count();
@@ -39,7 +39,7 @@ public class SimpleBot {
         System.out.println("Now I will prove to you that I can count to any number you want.");
         int num = scanner.nextInt();
         for (int i = 0; i <= num; i++) {
-            System.out.printf("%d!\n", i);
+            System.out.printf("%d! %n", i);
         }
     }
 
